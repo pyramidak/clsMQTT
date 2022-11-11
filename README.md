@@ -1,5 +1,5 @@
 # clsMQTT
-Use of my VB.Net class that is using MQTTnet 3.0.* library https://github.com/dotnet/MQTTnet
+Use of my VB.Net class clsMQTT that is using MQTTnet 3.0.* library https://github.com/dotnet/MQTTnet
 
     Private WithEvents mqtt As clsMQTT
 
