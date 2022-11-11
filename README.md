@@ -1,5 +1,6 @@
 # clsMQTT
 VB.Net code for MQTTnet 3.0.* library
+https://github.com/dotnet/MQTTnet
 
     Private WithEvents mqtt As clsMQTT
 
