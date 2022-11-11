@@ -46,7 +46,7 @@ VB.Net code for MQTTnet 3.0.* library
 	  If Task = clsMQTT.TaskErr.Disconnect Then
             mqtt = New clsMQTT 
         Else
-            If mqtt IsNot Nothing AndAlso mqtt.IsConnected Then mqtt.Disconnect.Wait()
+            If mqtt IsNot Nothing AndAlso mqtt.IsConnected Then mqtt.Disconnect.Wait() 'due to multiple errors is better to disconnect
             MessageBox.Show(Message, "MQTT Client", MessageBoxButton.OK, MessageBoxImage.Error)
         End If
     End Sub
